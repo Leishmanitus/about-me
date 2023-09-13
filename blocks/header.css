@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  background: url("../images/header-background.jpg") center no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid darkgoldenrod;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.header__overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header__title {
+  color: goldenrod;
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  text-transform: uppercase;
+  margin: 0;
+}

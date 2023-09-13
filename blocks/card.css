@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 45px 70px;
+  background: #000;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  border: 2px solid darkgoldenrod;
+  border-radius: 5px;
+}
+.card__image {
+  width: 100%;
+  margin-bottom: 25px;
+  height: 200px;
+  object-fit: contain;
+}
+.card__title {
+  color: goldenrod;
+  font-family: "Permanent Marker", cursive;
+  margin: 0 0 10px 0;
+}
+.card__text {
+  font-size: 16px;
+  color: goldenrod;
+  margin: 0;
+}

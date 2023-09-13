@@ -1,0 +1,11 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 282px));
+  gap: 32px 17px;
+  justify-content: center;
+  margin: 100px auto 50px;
+}
+
+.content__card {
+  width: 350px;
+}
